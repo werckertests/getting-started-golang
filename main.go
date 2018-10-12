@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-)
+
 xxxxxxxxxxxxxx
 type citiesResponse struct {
 	Cities []string `json:"cities"` // Cities capitalised to export it, otherwise json encoder will ignore it.
